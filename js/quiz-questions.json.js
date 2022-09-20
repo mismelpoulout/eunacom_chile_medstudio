@@ -1,4 +1,165 @@
 const quizQuestions = [
+    
+    {
+    "question": "Un paciente de 56 años consulta por cefalea de intensidad fluctuante, de predominio occipital. Además, presenta náuseas y dolor abdominal tipo cólico, con artralgias. En el último tiempo presenta también la sensación de tener un cuerpo extraño al tragar. Se ha realizado múltiples exámenes, los que descartan patología orgánica. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno adaptativo", "Trastorno por hipocondría", "Trastorno conversivo", "Depresión", "Trastorno por somatización"
+    ],
+    "answer": "Trastorno por somatización",
+    "feedback": "Consistente en múltiples síntomas de distintos tipos, sin una causa orgánica. El T. adaptativo tiene síntomas ansiosos o anímicos, luego de un evento crítico en la vida. El T. por hipocondría tiene miedo a una enfermedad grave o progresiva, habitualmente sin muchos síntomas.El T. conversivo tiene síntomas neurológicos súbitos."
+},
+{
+    "question": "Un paciente ingresa a la universidad, a estudiar derecho, con un buen puntaje en la PSU. Durante el primer mes está muy contento y les cuenta a todos sus amigos y familiares que será un excelente abogado y que de hecho ya está pensando en poner una empresa de consultoría para las grandes empresas del país. En ocasiones les cuenta sus planes a desconocidos y ha faltado a muchas clases por perder tiempo en trámites y averiguaciones, lo que le ha significado obtener bajas calificaciones, lo que él minimiza diciendo que esas notas las recuperará sin ningún problema porque “lleva el derecho en la sangre”. Sus familiares se muestran preocupados, ya que lo encuentran raro. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno delirante crónico", "Trastorno bipolar", "Esquizofrenia", "Trastorno obsesivo compulsivo", "Trastorno de personalidad narcisista"
+    ],
+    "answer": "Trastorno bipolar",
+    "feedback": "Tiene una manía severa, probablemente psicótica. Orientan fuertemente a una manía las ideas de éxito, el optimismo y la verborrea que tiene, hablando incluso con desconocidos sobre sus planes. También la edad(suelen brotar a los 18 años en promedio).Si bien parece que tiene un delirio megalomaníaco, es secundario al cuadro anímico (a la manía). Por tanto, tiene un T. bipolar."
+},
+{
+    "question": "Un paciente de 72 años presenta un cuadro de malestar general y fiebre, de 48 horas de evolución, a lo que luego se le agrega desorientación y agitación psicomotora. Refiere que sus familiares lo quieren matar y ha presentado alucinaciones visuales. El diagnóstico más probable es:",
+    "options": [
+        "Esquizofrenia", "Enfermedad de Alzheimer", "Demencia por cuerpos de Lewy", "Delirium", "Síndrome de abstinencia"
+    ],
+    "answer": "Delirium",
+    "feedback": "Tiene un síndrome confusional agudo o delirium, probablemente secundario a una infección. Puede tener alucinaciones y delirios, como en este caso. La desorientación y agitación son características, pero la inatención y el compromiso de conciencia son lo más importante."
+},
+{
+    "question": "Identifique la asociación INCORRECTA entre la intoxicación y el tratamiento:",
+    "options": [
+        "Metanol – etanol", "Paracetamol – N-acetilcisteína", "Cocaína – propanolol", "Amitriptilina – carbón activado", "Morfina – naloxona"
+    ],
+    "answer": "Cocaína – propanolol",
+    "feedback": "En la intoxicación por cocaína está absolutamente contraindicado el propanolol, ya que se puede generar una crisis hipertensiva (se bloquean los receptores beta, pero no los alfa, por lo que se produce una vasoconstricción masiva). Respecto a los tricíclicos, lo más importante es el soporte, pero sí sirve el carbón activado oral y el bicarbonato endovenoso."
+},
+{
+    "question": "Las alucinaciones de la esquizofrenia son característicamente:",
+    "options": [
+        "Visuales personificadas", "Visuales no personificadas", "Auditivas personificadas", "Auditivas no personificadas", "Complejas, con componentes visuales y auditivos personificados y no personificados"    ],
+    "answer": "Auditivas personificadas",
+    "feedback": "Suelen escuchar voces, por lo que son alucinaciones auditivas y personificadas. Un ejemplo de una alucinación auditiva no personificada sería escuchar explosiones o música.Vale la pena mencionar que pueden tener todo tipo de alucinaciones (visuales, cenestésicas, etc.)."
+},
+{
+    "question": "Un paciente que consume una sustancia psicotrópica con cierta frecuencia, necesita cada vez dosis más altas para obtener el mismo efecto. Este concepto corresponde a:",
+    "options": [
+        "Abuso", "Tolerancia", "Dependencia", "Up-regulation", "Abstinencia"
+    ],
+    "answer": "Tolerancia",
+    "feedback": "Es la definición de tolerancia: necesitar una dosis cada vez mayor para conseguir el mismo efecto. Vale la pena mencionar que suele producirse mediante mecanismos fisiopatológicos de up-regulation (sobreexpresión) o down-regulation (subexpresión) de receptores y neurotransmisores. Sin embargo, depende del tipo de sustancia el mecanismo que estará implicado. Abstinencia es el malestar que se produce al no consumir. Dependencia tiene relación con la adicción (aunque para muchos es un concepto obsoleto).Abuso tiene relación con el consumo perjudicial (aunque también se considera un concepto obsoleto)"
+},
+{
+    "question": "Un paciente de 20 años no tiene amigos íntimos y nunca ha tenido pareja. Tiene la sensación de que los demás lo encontrarán tonto o feo y por eso evita situaciones en las que tendrá contacto con personas nuevas o trabajos donde tendría que interactuar con muchas personas, ya que esto le causa ansiedad. El diagnóstico más probable es:",
+    "options": [
+        ". Trastorno de ansiedad", "Trastorno de ansiedad generalizada", "Trastorno fóbico social", "Trastorno de personalidad evitativo", "Trastorno distímico"
+    ],
+    "answer": "Trastorno de personalidad evitativo",
+    "feedback": "Baja autoestima, evitación de las demás personas y relaciones interpersonales, por miedo al rechazo. Se diferencia de la fobia social, en que esta sí tiene amigos y relaciones sociales normales, solo que le genera mucha ansiedad hacer cosas en las que será evaluado por los demás (ej. exponer, cantar o hablar en público)."
+},
+{
+    "question": "Una paciente de 45 años pierde de manera súbita el habla mientras discutía con su marido. Comprende bien el lenguaje, pero no puede evocar palabras ni sonidos. Cerca de 45 minutos después, comienza a recuperar progresivamente la voz. Su examen neurológico, así como su examen físico y neuroimágenes son totalmente normales. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno de estrés agudo", "Trastorno por somatización", "Trastorno de personalidad histriónico", "Trastorno disociativo", "Trastorno conversivo"
+    ],
+    "answer": " Trastorno conversivo",
+    "feedback": "Síntomas neurológicos de inicio súbito, sin una causa orgánica. En este caso tenía una afasia conversiva. En general, todos los T. de personalidad son una forma de ser (crónica y desde siempre). El T. somatización también es crónico y tiene síntomas de muchos tipos. El T. disociativo incluye el estupor disociativo, la fuga disociativa, la amnesia disociativa y los cuadros de desrealización y despersonalización."
+},
+{
+    "question": "Una mujer de 29 años presenta una crisis de pánico mientras estaba en la calle, comprando. Presenta mucha ansiedad y ha presentado cerca de 10 crisis de pánico en las últimas 6 semanas, algunas de ellas sin un desencadenante claro. Además, refiere miedo a le dé una crisis grave en la que muera y que nadie la ayude, por eso es que evita salir de su casa y sólo lo hace acompañada. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno de pánico sin agorafobia", "Trastorno de pánico con agorafobia", "Trastorno de ansiedad generalizada", "Fobia social", "Agorafobia aislada"
+    ],
+    "answer": "Crisis de pánico recurrentes, sin un desencadenante claro (aunque el paciente los relacione indirectamente con un evento), asociado a miedo a tener nuevas crisis. Además, tiene las conductas evitativas clásicas. Es frecuente que se asocie a agorafobia (miedo a no recibir ayuda), lo que se ve claramente en este caso (no sale sola, pero sí acompañada). De hecho, el T. ansiedad (angustia o pánico) se clasifica en con y sin agorafobia. Si en las alternativas los obligaran a elegir entre agorafobia y T. ansiedad, habría que marcar este último",
+    "feedback": "Trastorno de pánico con agorafobia"
+},
+{
+    "question": "¿Cuál es el tratamiento más adecuado para una paciente de 50 años con un trastorno de ansiedad generalizada?",
+    "options": [
+        "Antipsicóticos atípicos", "Antipsicóticos típicos", "Antidepresivos", "Benzodiacepinas de acción corta", "Benzodiacepinas de acción larga"
+    ],
+    "answer": "Antidepresivos",
+    "feedback": "Los trastornos ansiosos crónicos, incluyendo el trastorno de anciedad generalizado, se tratan preferentemente con antidepresivos IRS. Además, se le pueden agregar benzodiazepinas como tratamiento sintomático, pero estas no son el tratamiento de elección y solo se indican al inicio del tratamiento."
+},
+{
+    "question": "Un paciente de 60 años refiere ser la rencarnación del verdadero Dalai Lama. Lleva una vida muy tranquila, con meditación y practicando las enseñanzas del budismo. Al ser interrogado, cuenta que siempre ha sido muy religioso y cercano a la naturaleza y animales y desde hace 5 años empezó a soñar que él era el Dalai Lama y que vivía en los Himalayas. Al averiguar más notó que el Dalai Lama mundialmente reconocido era un impostor y que había manipulado a todos, sin embargo, él no le guarda rencor y dice que desde el anonimato sigue luchando por la purificación del mundo. Al decirle que es muy difícil creer que él sea realmente dicho personaje, él responde: “Doctor, lamento que aún no pueda ver lo que yo ahora veo, pero su mente aún está nublada por los pensamientos terrenales y sólo con meditación y desapego de lo material, logrará comprender”. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno delirante crónico", "Episodio mixto", "Manía", "Trastorno de personalidad esquizotípico", "Esquizofrenia"
+    ],
+    "answer": "Trastorno delirante crónico",
+    "feedback": "Tiene un delirio megalomaníaco. Además, es un delirio sistematizado, ya que es capaz de explicarlo claramente. No tiene síntomas anímicos (exaltación del ánimo, verborrea, hiperactividad, disminución de la necesidad de dormir, etc.) como para pensar en un T. bipolar con manía o episodio mixto. Tampoco tiene síntomas negativos ni alucinaciones, como para pensar en una esquizofrenia."
+},
+{
+    "question": "Usted controla a un paciente de 25 años, diagnosticado de depresión hace un mes, momento en que se inició fluoxetina 20 mg/día. Él refiere estar totalmente bien, ya sin depresión. Habla bastante y cambia fácil de tema, relatando que se metió a un curso de chino mandarín, porque es el idioma del futuro y además está haciendo mucho ejercicio, aprovechando que está lleno de energía. Además, cuenta que está durmiendo cerca de 5 horas al día, pero eso no le molesta, ya que no necesita dormir más. La conducta más adecuada es:",
+    "options": [
+        "Suspender el tratamiento y derivar a especialista", "Cambiar la fluoxetina por un inhibidor de la monoaminoxidasa", "Mantener el tratamiento y agregar ácido valproico", "Disminuir la dosis de fluoxetina a 10 mg/día", "Mantener el tratamiento"
+    ],
+    "answer": " Suspender el tratamiento y derivar a especialista",
+    "feedback": "Tiene un viraje de depresión a manía, por lo que su diagnóstico es un trastorno bipolar. Por tanto, se tiene que suspender los antidepresivos (están todos absolutamente contraindicados en el trastorno bipolar) y sedebe derivar al especialista. Sin embargo, también habría sido correcto iniciar el tratamiento con estabilizadores del ánimo (litio y anticonvulsivantes), ya que el T. bipolar no psicótico, puede ser manejado por un médico general, con conocimiento suficiente de salud mental."
+},
+{
+    "question": "Un paciente sufre la separación con su esposa hace un mes, quien lo acusó de haberle sido infiel. Él evoluciona muy triste, llorando con frecuencia y pensando constantemente en lo injusto que fue todo, porque él nunca fue infiel. Refiere insomnio importante, despertando a las 4 de la mañana y que de inmediato empieza a pensar en que su mujer lo dejó y lo acusó injustamente. Además, presenta baja de peso de 6 kilogramos desde el inicio del cuadro. Dice que no tiene ganas de trabajar ni de hacer nada. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno depresivo", "Trastorno adaptativo", "Trastorno de estrés postraumático", "Trastorno de estrés agudo", "Reacción normal"
+    ],
+    "answer": "Trastorno depresivo",
+    "feedback": "Tiene un hecho gatillante claro y además tiene marcados síntomas anímicos (tristeza, llanto, insomnio y baja de peso), por lo que se trata de una depresión reactiva. Si hubiese sido menos intensa, sin alteraciones del peso, por ejemplo, sería correcto el trastorno adaptativo. Si bien tiene reexperimentación del hecho, no se trata de un hecho que ponga en riesgo la vida, ni tiene hiperalerta, evitación o ansiedad relativa al hecho, como para pensar en un T. de estrés."
+},
+{
+    "question": "La esquizofrenia simple se caracteriza por:",
+    "options": [
+        " Predominancia de síntomas negativos", "Presencia de delirio paranoide", "Presencia de alucinaciones sin pérdida del juicio de la realidad", "Presencia de delirio sistematizado", "Ausencia de trastornos de personalidad y trastornos anímicos sobreagregado"
+    ],
+    "answer": "Predominancia de síntomas negativos",
+    "feedback": "La esquizofrenia simple es aquella que solo tienen síntomas negativos, también llamados primarios o deficitarios (aplanamiento afectivo, apatía, abulia, ineficiencia en el trabajo ejecutivo), sin síntomas positivos, también llamados secundarios o productivos (alucinaciones y delirios)."
+},
+{
+    "question": "¿Cuál de las siguientes alternativas es MENOS probable de presentarse en una paciente con anorexia nervosa?",
+    "options": [
+        "Personalidad de tipo obsesiva", "Conductas impulsivas con pérdida del control sobre la comida", "Amenorrea", "Conductas de purga", "Alteración de la autopercepción corporal"
+    ],
+    "answer": "Conductas impulsivas con pérdida del control sobre la comida",
+    "feedback": "Los atracones (episodios de pérdida de control sobre la comida, con ingesta impulsiva) son propios de la bulimia y son muy raros en la anorexia. La anorexia se asocia a personalidad obsesiva compulsiva (muy controladora), mientras que la bulimia a la personalidad limítrofe (muy impulsiva). Las conductas de purga son más frecuentes en la bulimia, pero se pueden ver en la anorexia (anorexia restrictivo-purgativa)"
+},
+{
+    "question": "Un paciente de 35 años consulta muy angustiado, porque desde hace 3 meses presenta la idea de que él agredirá a las personas que se le cruzan en la calle, por eso sale poco de su casa y además cruza la calle cada vez que alguien se le acerca. Al preguntarle si está seguro de que realmente golpeará a la persona, él responde: “No estoy 100% seguro, pero no me voy a arriesgar”. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno de personalidad limítrofe", "Trastorno obsesivo compulsivo", "Trastorno delirante crónico", "Trastorno bipolar", "Esquizofrenia paranoide"
+    ],
+    "answer": "Trastorno obsesivo compulsivo",
+    "feedback": "con obsesión de conducta impropia (conductas agresivas o sexuales son las más frecuentes) y compulsiones de evitación (cruzar la calle, no salir). La frase “no estoy seguro” apunta a que no está psicótico, sino que es un trastorno neurótico."
+},
+{
+    "question": "Un niño de 13 años presenta muy mala conducta en el colegio y en la casa, metiéndose en peleas y obteniendo pésimas calificaciones. Con frecuencia insulta a su madre y patea a los perros de la casa. Además, su padre dice que le ha robado en varias ocasiones y que cree que está consumiendo marihuana y alcohol. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno de conducta disocial", "Adolescencia normal", "Depresión", "Trastorno por déficit atencional del niño", "Trastorno oposicionista desafiante"
+    ],
+    "answer": "Trastorno de conducta disocial",
+    "feedback": "El T. conducta se caracteriza por conductas claramente reñidas con las normas sociales y morales. En resumidas cuentas, es un adolescente malo, que está evolucionando a convertirse en un antisocial. El tratamiento es difícil y requiere intervenir fuertemente su red de apoyo. El T. oposicionista desafiante tiene problemas con la autoridad y es desobediente y agresivo con la autoridad, pero no pelea con sus pares ni tampoco maltrata a los animales ni consume drogas."
+},
+{
+    "question": "¿Cuál de los siguientes fármacos es más útil para el abandono del hábito de fumar?",
+    "options": [
+        "Bupropión", "Acamprosato", "Benzodiacepinas", "Sertralina", "Disulfiram"
+    ],
+    "answer": "Bupropión",
+    "feedback": "El bupropión es un antidepresivo dual que disminuye el craving o deseo de fumar. También sirve la vareniclina. El disulfiram se usa para dejar de consumir alcohol, como fármaco aversivo, aunque actualmente no se recomienda, dados sus efectos adversos. El acamprosato se usa como fármaco desmotivante, para mantener la abstinencia al alcohol, junto con psicoterapia cognitivo conductual."
+},
+{
+    "question": "¿Cuál es el efecto adverso más frecuente de la risperidona?",
+    "options": [
+        "Síntomas extrapiramidales", "Náuseas", "Disfunción sexual", "Hipertensión arterial", "Insomnio"
+    ],
+    "answer": "Síntomas extrapiramidales",
+    "feedback": "La risperidona es un antipsicótico, que por ser antidopaminérgicos, producen síntomas extrapiramidales. Los típicos, como el haloperidol, tienen estos efectos adversos con más frecuencia que los atípicos, como la riesperidona."
+},
+{
+    "question": "Un paciente presenció un accidente de tránsito en que un motociclista fue arrollado por un camión, muriendo al instante, de manera muy cruenta. Dos meses después empieza con recuerdos y pesadillas con el suceso, los que son muy desagradables y le causan mucha ansiedad, llegando incluso a presentar crisis de ansiedad en 2 oportunidades. Refiere que pequeños ruidos lo asustan y se sobresalta fácilmente cuando alguien toca la bocina o frena brusco, por lo que evita manejar. El tratamiento de la patología descrita es:",
+    "options": [
+        "Benzodiacepinas y psicoterapia", "Anticonvulsivantes y psicoterapia", "Antipsicóticos y psicoterapia", "Psicoterapia sola", " Antidepresivos y psicoterapia"
+    ],
+    "answer": "Antidepresivos y psicoterapia",
+    "feedback": "Tiene un trastorno de estrés postraumático (TEPT). Como todos los trastornos ansiosos crónicos, se trata preferentemente con antidepresivos IRS. Además, se puede dar benzodiacepinas al inicio, pero no son el tratamiento más importante, sino solo sintomático. La psicoterapia se indica en todos los trastornos psiquiátricos."
+},
+    
     {
         "question": "Un paciente de 68 años, diabético de larga data, fumador, presenta pérdida brusca de la visión del ojo derecho, sin dolor. ¿Cuál es el diagnóstico más probable? ",
         "options": [
