@@ -611,6 +611,121 @@ const quizQuestions = [
         "imgs": "recursos/diciembre 2018/62.png",
         "feedback": "Es un granuloma piógeno clásico. Eso sí, la foto era distinta"
     },
+    
+{
+    "question": "Un hombre de 40 años consulta por disnea de esfuerzos de algunos años de evolución, que aparece con medianos esfuerzos, asociada a palpitaciones ocasionales. Al examen físico tiene edema de extremidades inferiores, FC: 75x’, PA: 120/80 mmHg, murmullo pulmonar presente, con escasos crépitos bibasales y al examen cardíaco presenta un soplo sistólico de ubicación paraesternal, con segundo ruido desdoblado fijo. Se solicita un electrocardiograma, que muestra eje a +120°, fibrilación auricular, con un bloqueo completo de la rama derecha del haz de His. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+        "Comunicación interauricular", "Ductus arteriosos persistente", "Comunicación interventricular", "Estenosis aórtica", "Estenosis mitral"
+    ],
+    "answer": "Comunicación interauricular",
+    "feedback": "Es por la dilatación derecha y el desdoblamiento fijo del 2º ruido."
+},
+{
+    "question": "Un recién nacido de 2 días de vida, presenta aumento de volumen parietal izquierdo, que deforma la cabeza, limitado a la zona parietal, que no sobrepasa la línea media. ¿Cuál es la complicación más frecuente de la alteración descrita?",
+    "options": [
+        "Fistulización a la piel", "Osteomielitis", "Disección de cuero cabelludo", "Hiperbilirrubinemia", " Abscedación"
+    ],
+    "answer": "Hiperbilirrubinemia",
+    "feedback": "La hiperbilirrubinemia es la complicación más frecuente del cefalohematoma (descrito en el caso). Las demás pueden ocurrir, pero son infrecuentes."
+},
+{
+    "question": " Una paciente de 23 años, consulta por malestar general y sensación febril de una semana de evolución, asociado a artralgias y palpitaciones. Al examen físico destaca glándula tiroides del doble del tamaño normal, muy dolorosa a la palpación, frecuencia cardiaca de 90 latidos por minuto y presión arterial de 120/80 mmHg. Se solicitan exámenes que muestran TSH: 0,01 UI/L (valor normal: 0,3-4,5 UI/L), T4L: 1,9 ng/mL (valor normal: 0,6-1,7 ng/mL), captación de yodo radioactivo de 2% (valor normal: 20% a 30%). ¿Cuál es el tratamiento de elección en esta paciente?",
+    "options": [
+        "Tiamazol", "AINEs", "Propiltiouracilo", "Bloqueadores beta", "Yodo radioactiivo en dosis terapéutica"
+    ],
+    "answer": "AINEs",
+    "feedback": "Tiene una tiroiditis subaguda de Quervain, cuyo tratamiento son los AINEs. No se usan las drogas antitiroideas y no sirve el yodo radiactivo (de hecho, no capta). El betabloqueo sí se usa cuando hay síntomas de hiperT4, pero lo más importante son los AINEs."
+},
+{
+    "question": "Una paciente de 42 años es traída por sus hijos, dado que ha dejado de salir de la casa o solo lo hace acompañada, por tiempo breve y con deseos de regresar pronto. Evita algunos lugares como los estacionamientos subterráneos y los ascensores, ya que le producen una sensación desagradable. Recientemente presentó mucha angustia al pasar por un túnel, en el que gritaba descontroladamente. Teme estar volviéndose loca y se muestra preocupada por su situación. Como antecedente, el cuadro comenzó luego de sospechar una infidelidad del marido. El diagnóstico más probable es:",
+    "options": [
+        "Trastorno delirante", "Agorafobia", "Episodio psicótico", "Trastorno de angustia generalizada", "Trastorno de pánico"
+    ],
+    "answer": "Agorafobia",
+    "feedback": "Como solo tuvo una crisis de pánico y relacionada con un estímulo agorafóbico clásico (puentes, estacionamientos, muchedumbres, lugares cerrados, lugares abiertos, metro) no es un trastorno de pánico (crisis de pánico recurrentes, sin causa aparente, el que puede venir con agorafobia)."
+},
+{
+    "question": "Un paciente de 68 años, con antecedente de diabetes mellitus tipo 2, consulta por disminución progresiva de la agudeza visual del ojo derecho. En su evaluación, tiene agudeza visual 20/20 en el ojo izquierdo y 15/20 en el ojo derecho. Su rojo pupilar demuestra una opacidad central con forma de estrella. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+        "Glaucoma", "Edema macular", "Catarata", "Retinopatía diabética", "Hemorragia vítrea"
+    ],
+    "answer": "Catarata",
+    "feedback": "Por la disminución de la agudeza visual y por la alteración del rojo pupilar (la opacidad como estrella es la catarata misma). La retinopatia diabetica no tiene síntomas; el edema macular tiene disminución de la agudeza visual en pocos días y no altera el rojo pupilar. El glaucoma no afecta la agudeza visual, sino el campo visual y no afecta el rojo pupilar. La Hemorragia Vitrea tiene aparición súbita y se pierde el rojo pupilar."
+},
+{
+    "question": "Una paciente de 53 años, en terapia de remplazo hormonal combinada oral, desde hace 6 meses, presenta metrorragia de 3 días de evolución, escasa.Su examen físico no tiene alteraciones y en la especuloscopía se aprecian restos de sangre en el orificio cervical externo. ¿Cuál es el diagnóstico más probable?",
+    "options": [
+        "Cáncer de endometrio", "Metrorragia disfuncional", "Atrofia endometrial", "Hiperplasia endometrial", "Pólipo endometrial"
+    ],
+    "answer": "Atrofia endometrial",
+    feedback": "Tanto por la edad como por el uso de terapia de reemplazo hormonal combinada, que tiene progestágeno, lo más probable es una atrofia endometrial."
+},
+{
+    "question": " Un paciente se hospitaliza hace 48 horas, por un traumatismo, secundario a un accidente de tránsito. Como antecedente, toma 1 botella de vino al día, sin llegar a la ebriedad. Al segundo día de ingreso presenta un cuadro de agitación psicomotora, desorientación temporoespacial, temblor y alucinaciones visuales zoomórficas. ¿Cuál es el tratamiento más adecuado?",
+    "options": [
+        "Haloperidol", "Risperidona", "Tiamina", "Carbamacepina", "Lorazepam"
+    ],
+    "answer": "Lorazepam",
+    "feedback": "Tiene un delirium tremens , que se trata con benzodiacepinas, en especial el diazepam. El lorazepam también es útil y es el de elección en el DHC."
+},
+{
+    "question": "Una mujer de 18 años presenta traumatismo en la rodilla derecha, siendo diagnosticada de esguince de rodilla, el que se maneja con reposo y antiinflamatorios. Evoluciona con dolor persistente, por lo que consulta nuevamente. Se solicita una radiografía de rodilla que muestra reacción perióstica y compromiso de partes blandas. El diagnóstico más probable es:",
+    "options": [
+        "Fractura del fémur distal, con callo óseo", "Hematoma calcificado", "Osteocondroma", "Osteosarcoma osteogénico", "Osteomielitis del fémur distal"
+    ],
+    "answer": "Osteosarcoma osteogénico",
+    "feedback": "Pregunta rara, ya que ni siquiera dicen que hay un tumor, pero reacción perióstica y el compromiso de partes blandas son clásicas de un tumor maligno. Por la edad, lo más probable es un osteosarcoma. Es frecuente en el Eunacom que se dé el antecedente de trauma (aunque no tenga relación) en distintos tipos de tumores, ya que ahí es que se lo palpan."
+},
+{
+    "question": "Un recién nacido de 3 semanas de vida es hospitalizado por presentar apneas. La madre refiere tos frecuente de 2 semanas de evolución, intensa, que en ocasiones la hacen vomitar. ¿Cuál es el tratamiento farmacológico más adecuado?",
+    "options": [
+        "Ceftriaxona", "Aciclovir", "Oseltamivir", "Azitromicina", "Amoxicicilina"
+    ],
+    "answer": "Azitromicina",
+    "feedback": "La sospecha es un coqueluche, que se trata con macrólidos."
+},
+{
+    "question": "Un niño de 16 años convulsiona al despertar, en la mañana siguiente de haber estado jugando videojuegos hasta tarde. Además, refiere mioclonías matinales frecuentes, desde hace algunos meses. Su examen físico es normal, al igual que su examen neurológico. ¿Cuál es el tratamiento de elección?",
+    "options": [
+        "Melatonina en la noche", "Carbamazepina", "Ácido valproico", "Diazepam si convulsiona nuevamente", "Suspender por completo los videojuegos"
+    ],
+    "answer": "Ácido valproico",
+    "feedback": "Tiene una epilepsia mioclónica. Los niños con epilepsia sí pueden ver pantallas, pero máximo 1 hora al día, con una buena iluminación."
+},
+{
+    "question": "",
+    "options": [
+        "", "", "", "", ""
+    ],
+    "answer": "",
+    "imgs": "recursos/diciembre 2019/.png",
+    "feedback": "Es una verruga paraungueal clásica"
+},
+{
+    "question": "Un niño de 10 años presenta, desde hace algunas semanas, una lesión en la cara lateral del índice derecho, dolorosa. Al examen físico se aprecia una lesión ulcerada, hiperqueratósica, con puntos negros en su superficie, la que se muestra en la siguiente imagen:[img], ¿Cuál es el diagnóstico más probable?"
+    "options": [
+        "Melanoma", "Panadizo", "Verruga vulgar", "Cuerpo extraño periungueal", "Molusco contagioso"
+    ],
+    "answer": "Verruga vulgar",
+    "imgs": "recursos/diciembre 2019/43.png",
+    "feedback": ""
+},
+{
+    "question": "Una paciente de 30 años, acude a su primer control de un embarazo de 10 semanas. Sus partos anteriores fueron eutócicos, con recién nacidos de término de 4 kilogramos. Entre sus exámenes de control trae un Elisa VIH que resultó negativo, hematocrito de 38%, glicemia de ayuno de 112 mg/dL y urocultivo negativo. Su examen físico es normal. ¿Cuál es la conducta más adecuada?",
+    "options": [
+        "Repetir glicemia de ayuno", "Repetir el urocultivo", "Iniciar metformina oral", "Mantener el control embarazo normal", "Solicitar test de tolerancia a la glucosa oral"
+    ],
+    "answer": "Repetir glicemia de ayuno",
+    "feedback": "La sospecha es una diabetes gestacional (glicemia de ayuno mayor o igual a 100), por lo que se debe repetir. Si hubiese estado mayor o igual a 126 la sospecha sería una diabetes pregestacional, aunque la conducta sería la misma. Si no hubiese estado embarazada, se tendría que pedir un TTGO"
+},
+{
+    "question": " Si se mejorara el tratamiento de una enfermedad crónica, y se mantiene la incidencia, ¿qué pasará con la prevalencia?",
+    "options": [
+        "No se puede determinar", "Disminuye", "No se modifica", "Depende de la enfermedad", "Aumenta"
+    ],
+    "answer": "Aumenta",
+    "feedback": "Si la enfermedad crónica es incurable, al mejorar el tratamiento, se muere menos gente y aumenta la prevalencia. Si fuera curable, sí disminuiría la prevalencia, ya que se curarían. Sin embargo, la D y la E hacen pensar que la respuesta que se quería como correcta era la A."
+},
     {
         "question": " Una paciente de 58 consulta por aparición de una lesión pruriginosa, de 3 meses de evolución en el párpado inferior derecho, que ha aumentado de volumen. Al examen físico, se observa lo siguiente:[img]¿cual es el diagnostico mas probable?",
         "options": ["Cáncer basocelular","Orzuelo","Chalacion","Blesfaritis","Conjuntivitis"],
@@ -911,7 +1026,7 @@ const quizQuestions = [
         "Resonancia magnética nuclear de mama"
     ],
     "answer": "Ecografía mamaria",
-    "feedback": ""
+    "feedback": "Birrads 0 = ecografía; Birrads 1 = control en 1 a 2 años; Birrads 2 = control en 1 a 2 años; Birrads 3 = mamografía en 6 meses (se puede complementar con ecografía); Birrads 4 = biopsia estereotáxica (si no es palpable) o con aguja gruesa (si palpable); Birrads 5 = biopsia quirúrgica."
 },
 {
     "question": "Un lactante de 3 años presenta, desde hace 2 días, edema de extremidades inferiores, de la cara y de la zona escrotal, asociado a malestar general. Hace 4 días está con diarrea. Al examen físico se aprecia pálido, se constata el edema blando y se observan múltiples equimosis en las extremidades inferiores. Se solicitan exámenes que muestran creatinina: 3,0 mg/dl, BUN:35 mg/dl, hemograma con hematocrito: 28%, plaquetas: 120.000, blancos: 11.000 por mm3, frotis con esquistocitos. ¿Cuál es el diagnóstico más probable? El diagnóstico más probable es:",
@@ -935,7 +1050,7 @@ const quizQuestions = [
         "Transfundir glóbulos rojos"
     ],
     "answer": "Solicitar ferritina plasmática",
-    "feedback": ""
+    "feedback": "Es una pregunta muy discutible, ya que tiene una clara anemia ferropénica, grave y se debe estudiar la presencia de cáncer digestivo, ya que es un adulto mayor. Sin embargo, probablemente sí se lo deba transfundir, ya que tiene una anemia muy sintomática. Por regla general, pero no absoluta, no se transfunden si tiene Hb mayor o igual a 10 g/dl y se suelen transfundir casi todos, si está menor a 7 g/dl. Entre 7 y 10, se ve caso a caso (aunque siempre se ve caso a caso). Dada la forma en que está redactada, recomiendo marcar la transfusión."
 },
 {
     "question": "Una paciente de 27 años hace 3 años se realiza una gastrectomía longitudinal y hace 6 meses se realiza una colecistectomía laparoscópica. Luego de eso ha presentado dolor epigástrico tipo cólico, intenso, intermitente, postprandial, que en ocasiones la despiertan en la madrugada. Su examen físico no aporta mayor información. El diagnóstico más probable es:",
@@ -946,8 +1061,8 @@ const quizQuestions = [
         "Obstrucción intestinal por bridas",
         "Síndrome de dumping"
     ],
-    "answer": "Coledocolitiasis",
-    "feedback": ""
+    "answer": "Síndrome de dumping",
+    "feedback": "Si bien, en estricto rigor, lo que tiene es un síndrome postcolecistectomía, Sindrome de Dumping es la única opción aceptable y la colecistectomía puede empeorarlo (síntomas disautonómicos y digestivos postingesta de alimentos de rápida absorción)"
 },
 {
     "question": "Una paciente de 24 años se realiza un PAP que es informado como probable lesión de bajo grado, por lo que se realiza una colposcopía, que muestra una neoplasia intraepitelial de bajo grado. La conducta más adecuada es:",
@@ -971,7 +1086,7 @@ const quizQuestions = [
         "Nódulo tiroideo"
     ],
     "answer": "Quiste tirogloso",
-    "feedback": ""
+    "feedback": "Ascienden con la deglución solo la el QTG y el nódulo tiroideo. Pero el QTG está en la línea media y no en el lado derecho, como este caso."
 },
 {
     "question": "Un paciente de 32 años, con antecedente de madre con cáncer de tiroides, por lo que se realiza una ecografía cervical, que muestra un nódulo tiroideo de 7 mm de diámetro y aspecto quístico. Su TSH y T4 libre son normales. ¿Cuál es la conducta más adecuada?",
@@ -982,8 +1097,8 @@ const quizQuestions = [
         "Solicitar nueva ecografía en 6 meses",
         "Realizar tiroidectomía"
     ],
-    "answer": "Realizar punción aspiración con aguja fina",
-    "feedback": ""
+    "answer": "Solicitar nueva ecografía en 6 meses",
+    "feedback": "Todo nódulo tiroideo se estudia con Ecografía y TSH + T4L. Si tiene más de 10mm, se punciona con PAAF. Si tiene menos de 10 mm, se sigue (este caso). Si tiene TSH baja (hipertiroidismo) se estudia con cintigrafía toroidea."
 },
 {
     "question": "Una paciente de 34 años, tiene un embarazo de 35 semanas, con feto creciendo en el percentil 2, desde la semana 33, con Doppler fetal normal, en ese entonces. Se solicita un nuevo Doppler fetal de control, que no muestra alteraciones. La conducta más adecuada es:",
@@ -994,8 +1109,8 @@ const quizQuestions = [
         "Controlar semanalmente con el Doppler",
         "Interrumpir a las 37 semanas"
     ],
-    "answer": "Controlar semanalmente con el Doppler",
-    "feedback": ""
+    "answer": "Realizar cesárea",
+    "feedback": "Tiene un RCIU severo (p2 o menos), por lo que se interrumpe a las 34 semanas, por cesárea. RCIU no severo (p3-4: moderado; p5-9: leve) y con Doppler normal: 37 semanas por parto vaginal. Doppler alterado siempre cesárea a las 34 semanas (flujo umbilical ausente en diástole), 30 semanas (flujo reverso en diástole) o 26 semanas (ducto venoso reverso)."
 },
 {
     "question": "Un niño de 5 años presenta un exantema pruriginoso, desde hace 4 días, generalizado y pleomorfo, consistente en máculas, pápulas, vesículas, que inició en el cuero cabelludo y luego se extendió al tronco y las extremidades. ¿Cuál es el tratamiento más adecuado?",
@@ -1018,8 +1133,8 @@ const quizQuestions = [
         "Prednisona oral por 7 días",
         "Flucloxacilina por 7 días"
     ],
-    "answer": "Curaciones con suero fisiológico",
-    "feedback": "",
+    "answer": "Flucloxacilina por 7 días",
+    "feedback": "Tiene un impétigo clásico. Se trata con cloxacilina, flucloxacilina, cefadroxilo o amoxi-clavulánico por 7 a 10 días. O bien con mupirocina o furazolidona tópica.",
     "imgs": "recursos/diciembre 2019/26.png",
 },
 {
